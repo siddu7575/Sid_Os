@@ -1,0 +1,2 @@
+nasm -f bin -o main.bin ../src/main.asm
+qemu-system-i386 -drive format=raw,file=main.bin
